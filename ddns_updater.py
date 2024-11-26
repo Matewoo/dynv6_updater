@@ -1,6 +1,5 @@
 import requests
 
-
 dynv6_username = "" # Example: "55cjZFwRJ7URYRchE8WY5UHdVRnB5l"
 dynv6_domain = "" # Example: "dynv6.net"
 
