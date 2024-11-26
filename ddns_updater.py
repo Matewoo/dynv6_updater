@@ -17,7 +17,6 @@ def call_api():
         print(f"Fehler beim API-Aufruf: {e}")
         return None
 
-
 api_response = call_api()
 
 print(get_public_ip())
