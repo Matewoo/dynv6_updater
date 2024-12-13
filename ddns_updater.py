@@ -7,7 +7,7 @@ def get_public_ip():
 
 def get_api_key():
     try:
-        with open("api_key.txt") as f:
+        with open("apiKey.txt") as f:
             return f.read().strip()
     except FileNotFoundError:
         print("API-Schlüssel-Datei nicht gefunden.")
